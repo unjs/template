@@ -1,0 +1,34 @@
+{
+  "name": "packageName",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "unjs/packageName",
+  "license": "MIT",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./cjs/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "unbuild",
+    "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "vitest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "typescript": "latest",
+    "unbuild": "latest",
+    "vitest": "^0.1.26"
+  }
+}

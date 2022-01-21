@@ -4,7 +4,7 @@ import { testFunction } from '../src'
 describe('packageName', () => {
   const tests = [
     { input: 'foo', output: 'Hello foo' },
-    { input: 'bar', output: 'Hello bar' },
+    { input: 'bar', output: 'Hello bar' }
   ]
 
   for (const test of tests) {
@@ -12,4 +12,4 @@ describe('packageName', () => {
       expect(testFunction(test.input)).eq(test.output)
     })
   }
-});
+})

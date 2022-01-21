@@ -27,8 +27,9 @@
   "dependencies": {},
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
     "typescript": "latest",
     "unbuild": "latest",
-    "vitest": "^0.1.26"
+    "vitest": "latest"
   }
 }

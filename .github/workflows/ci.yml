@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: corepack prepare
+      - run: corepack enable
       - uses: actions/setup-node@v2
         with:
           node-version: 16

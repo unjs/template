@@ -24,8 +24,7 @@
     "lint": "eslint --ext .ts,.js,.mjs,.cjs .",
     "prepack": "unbuild",
     "release": "pnpm test && standard-version && git push --follow-tags && pnpm publish",
-    "test": "pnpm lint && vitest run",
-    "coverage": "pnpm lint && vitest run --coverage"
+    "test": "pnpm lint && vitest run --coverage"
   },
   "dependencies": {},
   "devDependencies": {

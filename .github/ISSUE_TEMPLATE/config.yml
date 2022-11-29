@@ -1,0 +1,10 @@
+# contact_links:
+#   # GitHub Discussions is disabled by default. You should enabled it fist otherwise 404 page is shown.
+#   - name: 💬 Discussions
+#     url: https://github.com/unjs/packageName/discussions
+#     about: Use discussions if you have an idea for improvement and asking questions
+
+#   # You might need this link in case this package is integrated into Nuxt
+#   - name: 🔗 Nuxt related Issues
+#     url: https://github.com/nuxt/framework/issues/new/choose
+#     about: Please open an issue in nuxt/framework to discuss

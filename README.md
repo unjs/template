@@ -52,7 +52,7 @@ Published under [MIT License](./LICENSE).
 [npm-version-href]: https://npmjs.com/package/packageName
 [npm-downloads-src]: https://img.shields.io/npm/dm/packageName?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/packageName
-[github-actions-src]: https://img.shields.io/github/workflow/status/unjs/packageName/ci/main?style=flat-square
+[github-actions-src]: https://img.shields.io/github/actions/workflow/status/unjs/packageName/ci.yml?branch=main&style=flat-square
 [github-actions-href]: https://github.com/unjs/packageName/actions?query=workflow%3Aci
 [codecov-src]: https://img.shields.io/codecov/c/gh/unjs/packageName/main?style=flat-square
 [codecov-href]: https://codecov.io/gh/unjs/packageName

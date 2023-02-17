@@ -1,8 +1,9 @@
 {
-  "name": "packageName",
+  "name": "package-name",
   "version": "0.0.0",
   "description": "",
-  "repository": "unjs/packageName",
+  "repository": "unjs/package-name",
+  "homepage": "https://github.com/unjs/package-name#readme",
   "license": "MIT",
   "sideEffects": false,
   "type": "module",
@@ -22,8 +23,10 @@
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
-    "lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src test",
-    "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src test -w",
+    "lint": "eslint --cache --ext ts,js,mjs,cjs . && pnpm run format",
+    "lint:fix": "eslint --cache --ext ts,js,mjs,cjs . --fix && pnpm run format:fix",
+    "format": "prettier --check . --ignore-path .eslintignore",
+    "format:fix": "prettier --check . --ignore-path .eslintignore --write",
     "prepack": "pnpm run build",
     "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
     "test": "pnpm lint && vitest run --coverage"

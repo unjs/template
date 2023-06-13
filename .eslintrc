@@ -1,4 +1,4 @@
 {
-  "extends": ["eslint-config-unjs"],
+  "extends": ["@curev"],
   "rules": {}
 }

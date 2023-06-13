@@ -54,11 +54,11 @@ Published under [MIT License](./LICENSE).
 [npm-version-href]: https://npmjs.com/package/packageName
 [npm-downloads-src]: https://img.shields.io/npm/dm/packageName?style=flat&colorA=18181B&colorB=F0DB4F
 [npm-downloads-href]: https://npmjs.com/package/packageName
-[codecov-src]: https://img.shields.io/codecov/c/gh/unjs/packageName/main?style=flat&colorA=18181B&colorB=F0DB4F
-[codecov-href]: https://codecov.io/gh/unjs/packageName
+[codecov-src]: https://img.shields.io/codecov/c/gh/chizukicn/packageName/main?style=flat&colorA=18181B&colorB=F0DB4F
+[codecov-href]: https://codecov.io/gh/chizukicn/packageName
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/packageName?style=flat&colorA=18181B&colorB=F0DB4F
 [bundle-href]: https://bundlephobia.com/result?p=packageName
-[license-src]: https://img.shields.io/github/license/unjs/packageName.svg?style=flat&colorA=18181B&colorB=F0DB4F
-[license-href]: https://github.com/unjs/packageName/blob/main/LICENSE
+[license-src]: https://img.shields.io/github/license/chizukicn/packageName.svg?style=flat&colorA=18181B&colorB=F0DB4F
+[license-href]: https://github.com/chizukicn/packageName/blob/main/LICENSE
 [jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=F0DB4F
 [jsdocs-href]: https://www.jsdocs.io/package/packageName

@@ -4,8 +4,6 @@
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![bundle][bundle-src]][bundle-href]
 [![Codecov][codecov-src]][codecov-href]
-[![License][license-src]][license-href]
-[![JSDocs][jsdocs-src]][jsdocs-href]
 
 This is my package description.
 
@@ -58,7 +56,3 @@ Published under [MIT License](./LICENSE).
 [codecov-href]: https://codecov.io/gh/unjs/packageName
 [bundle-src]: https://img.shields.io/bundlephobia/minzip/packageName?style=flat&colorA=18181B&colorB=F0DB4F
 [bundle-href]: https://bundlephobia.com/result?p=packageName
-[license-src]: https://img.shields.io/github/license/unjs/packageName.svg?style=flat&colorA=18181B&colorB=F0DB4F
-[license-href]: https://github.com/unjs/packageName/blob/main/LICENSE
-[jsdocs-src]: https://img.shields.io/badge/jsDocs.io-reference-18181B?style=flat&colorA=18181B&colorB=F0DB4F
-[jsdocs-href]: https://www.jsdocs.io/package/packageName

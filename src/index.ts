@@ -1,1 +1,3 @@
-export default function test() {}
+export function test() {
+  return "works!";
+}

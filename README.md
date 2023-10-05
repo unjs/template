@@ -20,6 +20,9 @@ yarn add packageName
 
 # pnpm
 pnpm install packageName
+
+# bun
+bun install packageName
 ```
 
 Import:

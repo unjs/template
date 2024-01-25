@@ -22,17 +22,17 @@
   "scripts": {
     "build": "unbuild",
     "dev": "vitest dev",
-    "play": "jiti playground",
     "lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src test",
     "lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src test -w",
     "prepack": "pnpm build",
+    "play": "jiti playground",
     "release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
     "test": "pnpm lint && pnpm test:types && vitest run --coverage",
     "test:types": "tsc --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@types/node": "^20.10.5",
-    "@vitest/coverage-v8": "^1.1.0",
+    "@types/node": "^20.11.6",
+    "@vitest/coverage-v8": "^1.2.1",
     "changelogen": "^0.5.5",
     "eslint": "^8.56.0",
     "eslint-config-unjs": "^0.2.1",

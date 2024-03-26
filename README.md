@@ -1,10 +1,11 @@
 # packageName
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+<!-- automd:badges color=yellow -->
 
-<!-- [![bundle][bundle-src]][bundle-href] -->
-<!-- [![Codecov][codecov-src]][codecov-href] -->
+[![npm version](https://flat.badgen.net/npm/v/packageName?color=yellow)](https://npmjs.com/package/packageName)
+[![npm downloads](https://flat.badgen.net/npm/dm/packageName?color=yellow)](https://npmjs.com/package/packageName)
+
+<!-- /automd -->
 
 This is my package description.
 
@@ -12,7 +13,12 @@ This is my package description.
 
 Install package:
 
+<!-- automd:pm-install -->
+
 ```sh
+# ✨ Auto-detect
+npx nypm install packageName
+
 # npm
 npm install packageName
 
@@ -26,17 +32,37 @@ pnpm install packageName
 bun install packageName
 ```
 
+<!-- /automd -->
+
 Import:
 
-```js
-// ESM
-import {} from "packageName";
+<!-- automd:jsimport cjs cdn name="pkg" -->
 
-// CommonJS
-const {} = require("packageName");
+**ESM** (Node.js, Bun)
+
+```js
+import {} from "pkg";
 ```
 
+**CommonJS** (Legacy Node.js)
+
+```js
+const {} = require("pkg");
+```
+
+**CDN** (Deno, Bun and Browsers)
+
+```js
+import {} from "https://esm.sh/pkg";
+```
+
+<!-- /automd -->
+
 ## Development
+
+<details>
+
+<summary>local development</summary>
 
 - Clone this repository
 - Install latest LTS version of [Node.js](https://nodejs.org/en/)
@@ -44,21 +70,25 @@ const {} = require("packageName");
 - Install dependencies using `pnpm install`
 - Run interactive tests using `pnpm dev`
 
+</details>
+
 ## License
 
-Made with 💛
+<!-- automd:contributors license=MIT -->
 
-Published under [MIT License](./LICENSE).
+Published under the [MIT](https://github.com/unjs/packageName/blob/main/LICENSE) license.
+Made by [community](https://github.com/unjs/packageName/graphs/contributors) 💛
+<br><br>
+<a href="https://github.com/unjs/packageName/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=unjs/packageName" />
+</a>
 
-<!-- Badges -->
+<!-- /automd -->
 
-[npm-version-src]: https://img.shields.io/npm/v/packageName?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-version-href]: https://npmjs.com/package/packageName
-[npm-downloads-src]: https://img.shields.io/npm/dm/packageName?style=flat&colorA=18181B&colorB=F0DB4F
-[npm-downloads-href]: https://npmjs.com/package/packageName
+<!-- automd:with-automd -->
 
-<!-- [codecov-src]: https://img.shields.io/codecov/c/gh/unjs/packageName/main?style=flat&colorA=18181B&colorB=F0DB4F
-[codecov-href]: https://codecov.io/gh/unjs/packageName
+---
 
-[bundle-src]: https://img.shields.io/bundlephobia/minzip/packageName?style=flat&colorA=18181B&colorB=F0DB4F
-[bundle-href]: https://bundlephobia.com/result?p=packageName -->
+_🤖 auto updated with [automd](https://automd.unjs.io)_
+
+<!-- /automd -->

@@ -3,7 +3,7 @@
 <!-- automd:badges color=yellow -->
 
 [![npm version](https://img.shields.io/npm/v/packageName?color=yellow)](https://npmjs.com/package/packageName)
-[![npm downloads](https://img.shields.io/npm/dm/packageName?color=yellow)](https://npmjs.com/package/packageName)
+[![npm downloads](https://img.shields.io/npm/dm/packageName?color=yellow)](https://npm.chart.dev/packageName)
 
 <!-- /automd -->
 
@@ -30,6 +30,9 @@ pnpm install packageName
 
 # bun
 bun install packageName
+
+# deno
+deno install packageName
 ```
 
 <!-- /automd -->
@@ -38,7 +41,7 @@ Import:
 
 <!-- automd:jsimport cjs cdn name="pkg" -->
 
-**ESM** (Node.js, Bun)
+**ESM** (Node.js, Bun, Deno)
 
 ```js
 import {} from "pkg";

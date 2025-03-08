@@ -11,46 +11,21 @@ This is my package description.
 
 ## Usage
 
-Install package:
-
-<!-- automd:pm-install -->
+Install the package:
 
 ```sh
-# ✨ Auto-detect
+# ✨ Auto-detect (supports npm, yarn, pnpm, deno and bun)
 npx nypm install packageName
-
-# npm
-npm install packageName
-
-# yarn
-yarn add packageName
-
-# pnpm
-pnpm install packageName
-
-# bun
-bun install packageName
-
-# deno
-deno install packageName
 ```
-
-<!-- /automd -->
 
 Import:
 
-<!-- automd:jsimport cjs cdn name="pkg" -->
+<!-- automd:jsimport cdn name="pkg" -->
 
 **ESM** (Node.js, Bun, Deno)
 
 ```js
 import {} from "pkg";
-```
-
-**CommonJS** (Legacy Node.js)
-
-```js
-const {} = require("pkg");
 ```
 
 **CDN** (Deno, Bun and Browsers)

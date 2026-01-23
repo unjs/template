@@ -10,7 +10,6 @@ jobs:
       - uses: actions/setup-node@v6
         with: { node-version: lts/*, cache: "pnpm" }
       - run: pnpm install
-      - run: pnpm lint:fix
-      - run: pnpm automd
+      - run: pnpm format
       - uses: autofix-ci/action@635ffb0c9798bd160680f18fd73371e355b85f27
         with: { commit-message: "chore: apply automated updates" }

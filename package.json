@@ -2,38 +2,37 @@
   "name": "packageName",
   "version": "0.0.0",
   "description": "",
-  "repository": "unjs/packageName",
   "license": "MIT",
-  "sideEffects": false,
-  "type": "module",
-  "exports": {
-    ".": "./dist/index.mjs"
-  },
-  "types": "./dist/index.d.mts",
+  "repository": "unjs/packageName",
   "files": [
     "dist"
   ],
+  "type": "module",
+  "sideEffects": false,
+  "types": "./dist/index.d.mts",
+  "exports": {
+    ".": "./dist/index.mjs"
+  },
   "scripts": {
     "build": "obuild",
     "dev": "vitest dev",
-    "format": "automd && eslint . --fix && prettier -w .",
-    "lint": "eslint . && prettier -c .",
+    "format": "automd && oxlint . --fix && oxfmt .",
+    "lint": "oxlint . && oxfmt --check .",
     "prepack": "pnpm build",
     "release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
     "test": "pnpm lint && pnpm typecheck && vitest run --coverage",
     "typecheck": "tsgo --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@types/node": "^25.0.10",
-    "@typescript/native-preview": "7.0.0-dev.20260122.4",
+    "@types/node": "^25.1.0",
+    "@typescript/native-preview": "^7",
     "@vitest/coverage-v8": "^4.0.18",
-    "automd": "^0.4.2",
+    "automd": "^0.4.3",
     "changelogen": "^0.6.2",
-    "eslint": "^9.39.2",
-    "eslint-config-unjs": "^0.6.2",
-    "obuild": "^0.4.19",
-    "prettier": "^3.8.1",
+    "obuild": "^0.4.22",
+    "oxfmt": "^0.27.0",
+    "oxlint": "^1.42.0",
     "vitest": "^4.0.18"
   },
-  "packageManager": "pnpm@10.28.1"
+  "packageManager": "pnpm@10.28.2"
 }

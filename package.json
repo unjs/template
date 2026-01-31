@@ -24,15 +24,15 @@
     "typecheck": "tsgo --noEmit --skipLibCheck"
   },
   "devDependencies": {
-    "@types/node": "^25.1.0",
-    "@typescript/native-preview": "^7",
-    "@vitest/coverage-v8": "^4.0.18",
-    "automd": "^0.4.3",
-    "changelogen": "^0.6.2",
-    "obuild": "^0.4.22",
-    "oxfmt": "^0.27.0",
-    "oxlint": "^1.42.0",
-    "vitest": "^4.0.18"
+    "@types/node": "latest",
+    "@typescript/native-preview": "latest",
+    "@vitest/coverage-v8": "latest",
+    "automd": "latest",
+    "changelogen": "latest",
+    "obuild": "latest",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "vitest": "latest"
   },
   "packageManager": "pnpm@10.28.2"
 }

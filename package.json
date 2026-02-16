@@ -16,7 +16,7 @@
   "scripts": {
     "build": "obuild",
     "dev": "vitest dev",
-    "format": "automd && oxlint . --fix && oxfmt .",
+    "fmt": "automd && oxlint . --fix && oxfmt .",
     "lint": "oxlint . && oxfmt --check .",
     "prepack": "pnpm build",
     "release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",

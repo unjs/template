@@ -32,6 +32,7 @@
     "obuild": "latest",
     "oxfmt": "latest",
     "oxlint": "latest",
+    "typescript": "latest",
     "vitest": "latest"
   },
   "packageManager": "pnpm@10.29.3"

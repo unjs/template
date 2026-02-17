@@ -4,5 +4,6 @@ dist
 .vscode
 .DS_Store
 .eslintcache
+tsconfig.tsbuildinfo
 *.log*
 *.env*

@@ -1,0 +1,7 @@
+# https://pnpm.io/settings
+
+allowBuilds: {}
+blockExoticSubdeps: true
+dedupePeers: true
+ignoreWorkspaceRootCheck: true
+trustPolicy: no-downgrade
